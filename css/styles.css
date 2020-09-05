@@ -200,7 +200,8 @@
   font-size: 40px;
   text-align: center;
   color: #ba9a45;
-  padding-bottom: 20px;
+  padding: 0;
+  margin-bottom: 30px;
 }
 
 .private-room-description{
@@ -233,7 +234,9 @@
   font-size: 40px;
   text-align: center;
   color: #ba9a45;
-  padding-bottom: 20px;
+  padding: 0;
+  margin-bottom: 30px;
+  padding-bottom: 0;
 }
 
 .party-description{
@@ -274,4 +277,29 @@ footer{
   margin: 0;
   padding-bottom: 10px;
   padding-right: 10px;
+}
+
+/* Media */
+
+@media screen and (max-width: 800px) {
+
+  /* .navbar li{
+    display: block;
+  } */
+
+  .feature-description{
+    padding-bottom: 7%;
+  }
+
+  .join-button{
+    margin-bottom: 40px;
+  }
+
+  .private-room-image{
+    margin-bottom: 40px;
+  }
+
+  .party-description{
+    margin-bottom: 40px;
+  }
 }
