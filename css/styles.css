@@ -281,6 +281,10 @@ footer{
     margin-bottom: 40px;
   }
 
+  p.feature-description{
+    margin-bottom: 0;
+  }
+
   /* Images */
 
   .membership-image{
