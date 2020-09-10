@@ -292,10 +292,6 @@ footer{
 
 @media screen and (max-width: 480px), (max-width: 768px), (max-width: 1024px){
 
-  /* .navbar ul li{
-    display: block;
-  } */
-
   .feature-box p{
     margin-bottom: 40px;
   }
