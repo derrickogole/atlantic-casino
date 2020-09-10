@@ -31,6 +31,10 @@
   font-weight: bold;
 }
 
+.burger-nav{
+  display: none;
+}
+
 /* Alternative Navbar */
 
 /* .navbar{
@@ -275,7 +279,22 @@ footer{
 
 /* Media Query */
 
+@media screen and (max-width: 480px){
+  .burger-nav{
+    display: block;
+    position: absolute;
+    left: 95%;
+    top: 16px;
+    width: 24px;
+    height: 24px;
+  }
+}
+
 @media screen and (max-width: 480px), (max-width: 768px), (max-width: 1024px){
+
+  /* .navbar ul li{
+    display: block;
+  } */
 
   .feature-box p{
     margin-bottom: 40px;
